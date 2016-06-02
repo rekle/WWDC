@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22B295B51BBB825300F06D8D /* VideoInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22B295B41BBB825300F06D8D /* VideoInfo.txt */; };
+		229AB0B61CFFB6DB0018F790 /* videoinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 229AB0B51CFFB6DB0018F790 /* videoinfo.json */; };
 		22EF39731BBB6D9C00E22B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF39721BBB6D9C00E22B22 /* AppDelegate.swift */; };
 		22EF39751BBB6D9C00E22B22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF39741BBB6D9C00E22B22 /* ViewController.swift */; };
 		22EF39781BBB6D9C00E22B22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF39761BBB6D9C00E22B22 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22B295B41BBB825300F06D8D /* VideoInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VideoInfo.txt; sourceTree = "<group>"; };
+		229AB0B51CFFB6DB0018F790 /* videoinfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoinfo.json; sourceTree = "<group>"; };
 		22EF396F1BBB6D9C00E22B22 /* WWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EF39721BBB6D9C00E22B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EF39741BBB6D9C00E22B22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,13 +56,13 @@
 		22EF39711BBB6D9C00E22B22 /* WWDC */ = {
 			isa = PBXGroup;
 			children = (
-				22B295B41BBB825300F06D8D /* VideoInfo.txt */,
 				22EF39721BBB6D9C00E22B22 /* AppDelegate.swift */,
 				22EF39741BBB6D9C00E22B22 /* ViewController.swift */,
 				22EF39811BBB72C900E22B22 /* VideoPlayer.swift */,
 				22EF39761BBB6D9C00E22B22 /* Main.storyboard */,
 				22EF39791BBB6D9C00E22B22 /* Assets.xcassets */,
 				22EF397B1BBB6D9C00E22B22 /* Info.plist */,
+				229AB0B51CFFB6DB0018F790 /* videoinfo.json */,
 			);
 			path = WWDC;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B295B51BBB825300F06D8D /* VideoInfo.txt in Resources */,
 				22EF397A1BBB6D9C00E22B22 /* Assets.xcassets in Resources */,
 				22EF39781BBB6D9C00E22B22 /* Main.storyboard in Resources */,
+				229AB0B61CFFB6DB0018F790 /* videoinfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
